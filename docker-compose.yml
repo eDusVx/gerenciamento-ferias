@@ -1,0 +1,11 @@
+version: "3.1"
+
+services:
+  db:
+    image: postgres:latest
+    environment:
+      POSTGRES_USER: edusvx
+      POSTGRES_PASSWORD: dudu1020
+      POSTGRES_DB: ferias
+    ports:
+      - "5432:5432"
